@@ -13,12 +13,16 @@
   <body>
     <section class="section">
       <div class="container">
-        <input id="slider1" class="slider has-output is-fullwidth is-primary" min="0" max="100" value="50" step="1" type="range" onchange="document.getElementById('output1').value = this.value">
+        <input id="slider0" class="slider is-fullwidth is-primary" min="0" max="100" value="50" step="1" type="range">
+      </div>
+
+      <div class="container">
+        <input id="slider1" class="slider has-output is-fullwidth is-info" min="0" max="100" value="50" step="1" type="range" onchange="document.getElementById('output1').value = this.value">
         <output id= "output1" for="slider1">50</output>
       </div>
 
       <div class="container">
-        <input id="slider2" class="slider is-fullwidth is-primary" min="0" max="100" value="50" step="1" type="range">
+        <input id="slider2" class="slider is-danger" min="0" max="100" value="50" step="1" type="range">
       </div>
     </section><!-- #app -->
   </body>
